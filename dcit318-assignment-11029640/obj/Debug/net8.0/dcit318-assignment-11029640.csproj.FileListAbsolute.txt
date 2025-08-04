@@ -1,0 +1,15 @@
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\bin\Debug\net8.0\dcit318-assignment-11029640.exe
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\bin\Debug\net8.0\dcit318-assignment-11029640.deps.json
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\bin\Debug\net8.0\dcit318-assignment-11029640.runtimeconfig.json
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\bin\Debug\net8.0\dcit318-assignment-11029640.dll
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\bin\Debug\net8.0\dcit318-assignment-11029640.pdb
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.AssemblyInfoInputs.cache
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.AssemblyInfo.cs
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.csproj.CoreCompileInputs.cache
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.sourcelink.json
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.dll
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\refint\dcit318-assignment-11029640.dll
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.pdb
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\dcit318-assignment-11029640.genruntimeconfig.cache
+C:\Users\Dorris\source\repos\dcit318-assignment-11029640\dcit318-assignment-11029640\obj\Debug\net8.0\ref\dcit318-assignment-11029640.dll
