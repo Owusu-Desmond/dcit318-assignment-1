@@ -4,6 +4,44 @@ namespace Assignment1
 {
     class Program
     {
+        static void Main()
+        {
+            while (true)
+            {
+                Console.WriteLine("Assignment 1 Menu");
+                Console.WriteLine("1. Grade Calculator");
+                Console.WriteLine("2. Ticket Price Calculator");
+                Console.WriteLine("3. Triangle Type Identifier");
+                Console.WriteLine("4. Exit");
+                Console.Write("Enter your choice (1-4): ");
+                string choice = Console.ReadLine();
+                Console.Clear();
+
+                switch (choice)
+                {
+                    case "1":
+                        GradeCalculator();
+                        break;
+                    case "2":
+                        TicketPriceCalculator();
+                        break;
+                    case "3":
+                        TriangleTypeIdentifier();
+                        break;
+                    case "4":
+                        Console.WriteLine("Exiting the program. Goodbye!");
+                        return;
+                    default:
+                        Console.WriteLine("Invalid choice. Please enter a number from 1 to 4.");
+                        break;
+                }
+
+                Console.WriteLine("\nPress Enter to continue...");
+                Console.ReadLine();
+                Console.Clear();
+            }
+        }
+
         static void GradeCalculator()
         {
             Console.Write("Enter your numerical grade (0-100): ");
