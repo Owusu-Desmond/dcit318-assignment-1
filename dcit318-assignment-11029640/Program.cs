@@ -4,7 +4,6 @@ namespace Assignment1
 {
     class Program
     {
-
         static void GradeCalculator()
         {
             Console.Write("Enter your numerical grade (0-100): ");
@@ -49,5 +48,36 @@ namespace Assignment1
             }
         }
 
+        static void TriangleTypeIdentifier()
+        {
+            Console.WriteLine("Enter the three sides of the triangle:");
+
+            Console.Write("Side 1: ");
+            bool valid1 = double.TryParse(Console.ReadLine(), out double side1);
+            Console.Write("Side 2: ");
+            bool valid2 = double.TryParse(Console.ReadLine(), out double side2);
+            Console.Write("Side 3: ");
+            bool valid3 = double.TryParse(Console.ReadLine(), out double side3);
+
+            if (!valid1 || !valid2 || !valid3 || side1 <= 0 || side2 <= 0 || side3 <= 0)
+            {
+                Console.WriteLine("Invalid input. Please enter positive numbers.");
+                return;
+            }
+
+            if ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1))
+            {
+                if (side1 == side2 && side2 == side3)
+                    Console.WriteLine("This is an Equilateral triangle.");
+                else if (side1 == side2 || side1 == side3 || side2 == side3)
+                    Console.WriteLine("This is an Isosceles triangle.");
+                else
+                    Console.WriteLine("This is a Scalene triangle.");
+            }
+            else
+            {
+                Console.WriteLine("The given sides do not form a valid triangle.");
+            }
+        }
     }
 }
