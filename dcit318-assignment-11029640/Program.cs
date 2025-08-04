@@ -29,5 +29,25 @@ namespace Assignment1
             }
         }
 
+        static void TicketPriceCalculator()
+        {
+            Console.Write("Enter your age: ");
+            if (int.TryParse(Console.ReadLine(), out int age))
+            {
+                if (age < 0)
+                {
+                    Console.WriteLine("Age cannot be negative.");
+                    return;
+                }
+
+                int price = (age <= 12 || age >= 65) ? 7 : 10;
+                Console.WriteLine($"Your ticket price is: GHC{price}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+            }
+        }
+
     }
 }
